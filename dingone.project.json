@@ -1,0 +1,9 @@
+{
+    "solution": "h5",
+    "h5CompilerOptions": {
+      "init": "npm install",
+      "dev": "npm run dev",
+      "devCompiledFlag": "ready in",
+      "debugPort": 5173
+    }
+}

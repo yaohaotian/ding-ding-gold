@@ -1,0 +1,30 @@
+@import './base.css';
+@import './windcss.css'
+#app {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  font-weight: 400;
+}
+.green,
+a {
+  text-decoration: none;
+  color: #00bd7e;
+  transition: 0.4s;
+}
+@media (hover: hover) {
+  a:hover {
+    background-color: rgba(0, 189, 126, 0.2);
+  }
+}
+@media (min-width: 1024px) {
+  body {
+    display: flex;
+    place-items: center;
+  }
+  #app {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 0 2rem;
+  }
+}
