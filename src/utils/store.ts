@@ -18,9 +18,9 @@ const storage = {
   /**
    * 删除数据
    */
-  // remove: (key) => {
-  //   localStorage.clear( key )
-  // }
+  remove: (key) => {
+    localStorage.removeItem( key )
+  }
 }
 
 export default storage

@@ -10,7 +10,10 @@
   },
   "dependencies": {
     "@nutui/nutui": "^4.3.13",
-    "vue": "^3.2.38"
+    "axios": "^1.7.9",
+    "dingtalk-jsapi": "^3.0.42",
+    "vue": "^3.2.38",
+    "vue-router": "^4.5.0"
   },
   "devDependencies": {
     "@nutui/auto-import-resolver": "^1.0.0",

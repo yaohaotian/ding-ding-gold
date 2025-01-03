@@ -1,26 +1,15 @@
-<script setup lang="ts">
-import HelloWorld from './components/HelloWorld.vue'
-// import TheWelcome from './components/TheWelcome.vue'
+<script lang="tsx">
+import { defineComponent } from 'vue'
 
-import TheWelcome from '@/components/TheWelcome.vue'
+export default defineComponent({
+  name: 'ComponentName',
+  setup(props, ctx) {
+    return () => <router-view />
+  }
+})
 </script>
 
-<template>
-  <div>
-    
-  </div>
-</template>
-
 <style lang="less" scoped>
-header {
-  line-height: 1.5;
-}
-
-.logo {
-  display: block;
-  margin: 0 auto 2rem;
-}
-
 @media (min-width: 1024px) {
   header {
     display: flex;

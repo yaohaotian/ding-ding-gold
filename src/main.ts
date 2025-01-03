@@ -1,6 +1,8 @@
 import { createApp } from 'vue'
 import App from './App.vue'
 
+import { requestLogin } from '@/utils/auth'
+
 import {
   showToast,
   showNotify,

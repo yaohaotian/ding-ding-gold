@@ -7,14 +7,19 @@ export {}
 /* prettier-ignore */
 declare module 'vue' {
   export interface GlobalComponents {
+    Catalog: typeof import('./src/components/catalog.vue')['default']
     HelloWorld: typeof import('./src/components/HelloWorld.vue')['default']
     IconCommunity: typeof import('./src/components/icons/IconCommunity.vue')['default']
     IconDocumentation: typeof import('./src/components/icons/IconDocumentation.vue')['default']
     IconEcosystem: typeof import('./src/components/icons/IconEcosystem.vue')['default']
     IconSupport: typeof import('./src/components/icons/IconSupport.vue')['default']
     IconTooling: typeof import('./src/components/icons/IconTooling.vue')['default']
+    Message: typeof import('./src/components/message.vue')['default']
+    Navbar: typeof import('./src/components/navbar.vue')['default']
     NutButton: typeof import('@nutui/nutui')['Button']
+    NutNavbar: typeof import('@nutui/nutui')['Navbar']
     TheWelcome: typeof import('./src/components/TheWelcome.vue')['default']
+    Topbar: typeof import('./src/components/topbar.vue')['default']
     WelcomeItem: typeof import('./src/components/WelcomeItem.vue')['default']
   }
 }
